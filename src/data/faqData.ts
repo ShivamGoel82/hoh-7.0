@@ -2,35 +2,23 @@ import { FAQItem } from '../types';
 
 export const faqItems: FAQItem[] = [
   {
-    question: 'Who can participate in HackOnHills?',
-    answer: 'HackOnHills is open to all college students. Whether you\'re a coding expert or beginner, everyone is welcome to participate and learn.'
+    question: 'Is this hackathon an online event or offline?',
+    answer: 'Hack on hills is offline event and as a participant you need to be present at NIT Hamirpur campus one or two day before the event at least.'
   },
   {
-    question: 'What is the team size requirement?',
-    answer: 'Teams can consist of 1-4 members. We encourage collaboration, but solo hackers are also welcome!'
+    question: 'Do this hackathon has any participation fees for students?',
+    answer: 'No. The hackathon is free of cost for any student from any college all over India.'
   },
   {
-    question: 'Is HackOnHills a free event?',
-    answer: 'Yes, HackOnHills is completely free for all participants. We provide meals, snacks, and beverages throughout the event.'
+    question: 'What should I do if I do not have any team yet?',
+    answer: 'Just fill out the form leaving team name as blank, and according to skills you have filled out we will match you with the best team possible during Pre-Hackathon meeting.'
   },
   {
-    question: 'What should I bring to the hackathon?',
-    answer: 'Bring your laptop, charger, any necessary hardware for your project, and your student ID. Don\'t forget a change of clothes and toiletries if you plan to stay overnight.'
+    question: 'What are the Perks and Benefits of Participating in this Hackathon?',
+    answer: 'Hackathon Provide hands on experience with the experts from different field working on the Projects like Crypto Currency, AI, Machine Learning. This will help to give a head start if any one want to make project on the field. Along with that the participant will be provided with cool swags, stickers and refreshment and to keep them up.'
   },
   {
-    question: 'I\'m new to hackathons. Can I still participate?',
-    answer: 'Absolutely! HackOnHills is beginner-friendly. We have mentors to help you throughout the event, and we host workshops to teach you new skills.'
-  },
-  {
-    question: 'How are the projects judged?',
-    answer: 'Projects are judged based on innovation, technical difficulty, design, and practicality. Our panel of judges includes industry professionals and academics.'
-  },
-  {
-    question: 'Will there be prizes?',
-    answer: 'Yes! We have exciting prizes for the overall winners and track-specific winners, along with special sponsor prizes and swag for all participants.'
-  },
-  {
-    question: 'Is there a code of conduct?',
-    answer: 'Yes, we follow the MLH Code of Conduct to ensure a respectful and inclusive environment for all participants. Any form of harassment or discrimination will not be tolerated.'
-  },
+    question: 'What are the Accommodation Facility for the Participant from Outside the College?',
+    answer: 'Participant will be provided with Accommodation and Food in the Guest House of College during the Hackathon Period.'
+  }
 ];

@@ -2,48 +2,63 @@ import { TimelineEvent } from '../types';
 
 export const timelineEvents: TimelineEvent[] = [
   {
-    time: '8:00 AM - 9:00 AM',
-    title: 'Registration & Check-in',
-    description: 'Arrive at the venue, check-in, and receive your welcome kit',
+    time: 'Day 1 - 9:00 AM',
+    title: 'Check-in Starts',
+    description: 'Registration and check-in process begins at NIT Hamirpur campus'
   },
   {
-    time: '9:30 AM - 10:30 AM',
+    time: 'Day 1 - 10:00 AM',
     title: 'Opening Ceremony',
-    description: 'Welcome address, rules explanation, and sponsor introductions',
+    description: 'Welcome address, introduction to tracks, and mentor presentations'
   },
   {
-    time: '11:00 AM',
+    time: 'Day 1 - 11:00 AM',
+    title: 'Team Formation & Ideation',
+    description: 'Form teams, brainstorm ideas, and start planning your project'
+  },
+  {
+    time: 'Day 1 - 12:00 PM',
     title: 'Hacking Begins',
-    description: 'Start coding and bring your ideas to life',
+    description: 'Start working on your projects with your team'
   },
   {
-    time: '1:00 PM - 2:00 PM',
+    time: 'Day 1 - 2:00 PM',
     title: 'Lunch Break',
-    description: 'Refuel with a delicious lunch provided by our sponsors',
+    description: 'Break for lunch and networking'
   },
   {
-    time: '4:00 PM - 5:00 PM',
-    title: 'Workshop: Advanced AI Solutions',
-    description: 'Learn how to implement AI in your hackathon projects',
+    time: 'Day 1 - 5:00 PM',
+    title: 'Mentor Sessions',
+    description: 'One-on-one mentoring sessions with industry experts'
   },
   {
-    time: '8:00 PM - 9:00 PM',
+    time: 'Day 1 - 8:00 PM',
     title: 'Dinner',
-    description: 'Time to recharge with dinner and networking',
+    description: 'Dinner break and casual networking'
   },
   {
-    time: 'Next Day - 11:00 AM',
-    title: 'Hacking Ends',
-    description: 'Wrap up your projects and prepare for presentations',
+    time: 'Day 2 - 8:00 AM',
+    title: 'Breakfast',
+    description: 'Morning refreshments and progress check-ins'
   },
   {
-    time: '1:00 PM - 3:00 PM',
-    title: 'Project Showcase & Judging',
-    description: 'Present your project to judges and peers',
+    time: 'Day 2 - 12:00 PM',
+    title: 'Project Submissions',
+    description: 'Final submissions and preparation for presentations'
   },
   {
-    time: '4:00 PM - 5:00 PM',
-    title: 'Closing Ceremony & Awards',
-    description: 'Winners announcement and distribution of prizes',
+    time: 'Day 2 - 2:00 PM',
+    title: 'Project Presentations',
+    description: 'Teams present their projects to judges and audience'
   },
+  {
+    time: 'Day 2 - 4:00 PM',
+    title: 'Judging Round',
+    description: 'Evaluation of projects by our panel of expert judges'
+  },
+  {
+    time: 'Day 2 - 6:00 PM',
+    title: 'Closing Ceremony',
+    description: 'Winners announcement, prize distribution, and closing remarks'
+  }
 ];

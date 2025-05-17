@@ -141,7 +141,7 @@ const Sponsors: React.FC = () => {
             </div>
           )}
 
-          {/* Bronze Sponsors */}
+          {/* Bronze Sponsors
           {bronzeSponsors.length > 0 && (
             <div>
               <motion.h4 
@@ -168,6 +168,7 @@ const Sponsors: React.FC = () => {
               </div>
             </div>
           )}
+          */}
         </motion.div>
 
         <motion.div 
