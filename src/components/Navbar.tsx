@@ -35,12 +35,12 @@ const Navbar: React.FC = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <a href="#home" className="flex items-center justify-space-around">
-                <span className="text-accent text-2xl font-bold">HackOnHills</span>
-                <span className="text-neutral text-2xl ml-2 ">7.0</span>
+                <span className="text-accent text-3xl font-bold">HackOnHills</span>
+                <span className="text-neutral text-3xl ml-2 ">7.0</span>
               </a>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
                 <a
                   key={item.label}
                   href={item.href}
-                  className="text-neutral-light hover:text-accent px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                  className="text-neutral-light hover:text-accent px-3 py-2 rounded-md text-lg font-medium transition-colors duration-200"
                 >
                   {item.label}
                 </a>
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
                 href="https://hack-on-hills.devfolio.co/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-accent hover:bg-accent-light text-primary font-medium px-4 py-2 rounded-md text-sm transition-colors duration-200"
+                className="bg-accent hover:bg-accent-light text-primary font-medium px-4 py-2 rounded-md text-lg transition-colors duration-200"
               >
                 Register Now
               </a>

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Hero: React.FC = () => {
   return (
-    <section id="home" className="relative min-h-screen bg-primary pt-24 overflow-hidden">
+    <section id="home" className="relative min-h-screen bg-primary pt-10 overflow-hidden">
       <div className="relative flex flex-col items-center justify-center min-h-screen px-4">
         {/* Animated gradient orbs */}
         <motion.div 
@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl sm:text-5xl md:text-[5.5rem] leading-tight font-bold text-neutral-light mb-8">
+          <h1 className="text-4xl sm:text-5xl md:text-[5.5rem] leading-tight font-bold text-neutral-light mb-12">
             From Idea to Code:
             <br />
              Make it <span className="text-accent">Happen.</span>
