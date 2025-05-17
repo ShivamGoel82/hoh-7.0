@@ -15,23 +15,33 @@ function App() {
   useEffect(() => {
     // Update document title
     document.title = 'HackOnHills-7.0';
-    
+
     // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e: Event) {
-        e.preventDefault();
-        const href = (e.currentTarget as HTMLAnchorElement).getAttribute('href');
-        if (!href) return;
-        
-        const targetElement = document.querySelector(href);
-        if (!targetElement) return;
-        
-        window.scrollTo({
-          top: targetElement.getBoundingClientRect().top + window.scrollY,
-          behavior: 'smooth'
-        });
+    const anchors = document.querySelectorAll('a[href^="#"]');
+    const handleClick = (e: Event) => {
+      e.preventDefault();
+      const href = (e.currentTarget as HTMLAnchorElement).getAttribute('href');
+      if (!href) return;
+
+      const targetElement = document.querySelector(href);
+      if (!targetElement) return;
+
+      window.scrollTo({
+        top: targetElement.getBoundingClientRect().top + window.scrollY,
+        behavior: 'smooth'
       });
+    };
+
+    anchors.forEach(anchor => {
+      anchor.addEventListener('click', handleClick);
     });
+
+    // Cleanup to remove event listeners
+    return () => {
+      anchors.forEach(anchor => {
+        anchor.removeEventListener('click', handleClick);
+      });
+    };
   }, []);
 
   return (
