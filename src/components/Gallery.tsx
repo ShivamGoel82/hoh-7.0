@@ -72,7 +72,7 @@ const Gallery: React.FC = () => {
                   className="relative flex-none w-80 h-60 rounded-xl overflow-hidden"
                   initial={{ opacity: 0, x: 50 }}
                   animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  transition={{ duration: 0.6, delay: index * 0.1 }}
                 >
                   <img
                     src={image.url}
@@ -97,7 +97,7 @@ const Gallery: React.FC = () => {
           100% { transform: translateX(calc(-100% - 1.5rem)); }
         }
         .animate-scroll {
-          animation: scroll 30s linear infinite;
+          animation: scroll 10s linear infinite;
           &:hover {
             animation-play-state: paused;
           }
