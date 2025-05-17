@@ -9,6 +9,7 @@ import Sponsors from './components/Sponsors';
 import FAQ from './components/FAQ';
 import Team from './components/Team';
 import Footer from './components/Footer';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
   useEffect(() => {
@@ -45,6 +46,7 @@ function App() {
       <FAQ />
       <Team />
       <Footer />
+      <SpeedInsights/>
     </div>
   );
 }
