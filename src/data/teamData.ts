@@ -4,7 +4,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: 'Vishesh Garg',
     role: 'Lead Organizer',
-    imageUrl: 'vishesh garg.jpg',
+    imageUrl: '/vishesh garg.jpg',
     socialLinks: {
       github: 'https://github.com',
       linkedin: 'https://www.linkedin.com/in/gargvishesh/',
@@ -14,7 +14,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: 'Pratyush Pragyey',
     role: 'Technical Lead',
-    imageUrl: 'pratyush pragyey.jpg',
+    imageUrl: '/pratyush pragyey.jpg',
     socialLinks: {
       github: 'https://github.com',
       linkedin: 'https://www.linkedin.com/in/pratyush-pragyey-7a95a7258/'
@@ -23,7 +23,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: 'Ishaan Yadav',
     role: 'Design Lead',
-    imageUrl: 'ishaan yadav.jpg',
+    imageUrl: '/ishaan yadav.jpg',
     socialLinks: {
       github: 'https://github.com',
       linkedin: 'https://www.linkedin.com/in/ishaan-yadav-950a6327b/'

@@ -4,31 +4,31 @@ import { useInView } from 'react-intersection-observer';
 
 const galleryImages = [
   {
-    url: 'img3.jpg',
+    url: '/img3.jpg',
     caption: 'Collaborative Coding Sessions'
   },
   {
-    url: 'img4.jpg',
+    url: '/img4.jpg',
     caption: 'Team Discussions'
   },
   {
-    url: 'img5.jpg',
+    url: '/img5.jpg',
     caption: 'Project Presentations'
   },
   {
-    url: 'img6.jpg',
+    url: '/img6.jpg',
     caption: 'Award Ceremony'
   },
   {
-    url: 'img1.jpg',
+    url: '/img1.jpg',
     caption: 'Mentorship Sessions'
   },
   {
-    url: 'img2.jpg',
+    url: '/img2.jpg',
     caption: 'Judging Round'
   },
   {
-    url: 'img7.jpg',
+    url: '/img7.jpg',
     caption: 'Organizing Team'
   }
 ];

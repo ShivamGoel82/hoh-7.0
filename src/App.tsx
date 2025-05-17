@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 function App() {
   useEffect(() => {
     // Update document title
-    document.title = 'HackOnHills-7.0 | CodeZen';
+    document.title = 'HackOnHills-7.0';
     
     // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
