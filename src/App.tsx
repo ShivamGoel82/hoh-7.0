@@ -46,7 +46,7 @@ function App() {
       <FAQ />
       <Team />
       <Footer />
-      <SpeedInsights/>
+      <SpeedInsights />
     </div>
   );
 }
