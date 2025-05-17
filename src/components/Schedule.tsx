@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { timelineEvents } from '../data/timelineData';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';

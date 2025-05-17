@@ -32,7 +32,7 @@ const Sponsors: React.FC = () => {
   const platinumSponsors = sponsors.filter(sponsor => sponsor.tier === 'platinum');
   const goldSponsors = sponsors.filter(sponsor => sponsor.tier === 'gold');
   const silverSponsors = sponsors.filter(sponsor => sponsor.tier === 'silver');
-  const bronzeSponsors = sponsors.filter(sponsor => sponsor.tier === 'bronze');
+  // const bronzeSponsors = sponsors.filter(sponsor => sponsor.tier === 'bronze');
 
   return (
     <section id="sponsors" className="py-20 bg-primary">
