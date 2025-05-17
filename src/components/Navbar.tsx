@@ -38,9 +38,9 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <a href="#home" className="flex items-center">
-                <span className="text-accent text-xl font-bold">HackOnHills</span>
-                <span className="text-neutral ml-1 text-lg">7.0</span>
+              <a href="#home" className="flex items-center justify-space-around">
+                <span className="text-accent text-2xl font-bold">HackOnHills</span>
+                <span className="text-neutral text-2xl ml-2 ">7.0</span>
               </a>
             </div>
           </div>
@@ -56,7 +56,9 @@ const Navbar: React.FC = () => {
                 </a>
               ))}
               <a
-                href="#register"
+                href="https://hack-on-hills.devfolio.co/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-accent hover:bg-accent-light text-primary font-medium px-4 py-2 rounded-md text-sm transition-colors duration-200"
               >
                 Register Now
@@ -99,7 +101,9 @@ const Navbar: React.FC = () => {
               </a>
             ))}
             <a
-              href="#register"
+              href="https://hack-on-hills.devfolio.co/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-accent hover:bg-accent-light text-primary block text-center font-medium px-4 py-2 rounded-md text-base"
               onClick={() => setIsOpen(false)}
             >

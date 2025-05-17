@@ -107,7 +107,7 @@ const About: React.FC = () => {
         >
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
-              <p className="text-accent text-4xl md:text-5xl font-bold mb-2">500+</p>
+              <p className="text-accent text-4xl md:text-5xl font-bold mb-2">1000+</p>
               <p className="text-neutral">Participants</p>
             </div>
             <div>
@@ -119,7 +119,7 @@ const About: React.FC = () => {
               <p className="text-neutral">Hours</p>
             </div>
             <div>
-              <p className="text-accent text-4xl md:text-5xl font-bold mb-2">₹5L+</p>
+              <p className="text-accent text-4xl md:text-5xl font-bold mb-2">₹1L+</p>
               <p className="text-neutral">In Prizes</p>
             </div>
           </div>
